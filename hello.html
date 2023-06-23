@@ -94,12 +94,12 @@ nav {
  </div>
  </div>
  <script>
- function sheng(){
+function sheng(){
  let put = document.getElementById("put").value;
  let puty = document.getElementById("puty").value;
  let pu = document.getElementById("pu").value;
  
-if(puty == "1" || pu == "是"){
+if(puty == "1" && pu == "是"){
   guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
     var bit = [
   "http://test.cashbook.work/e1627544637f44d89ae352e992d51078",
@@ -118,8 +118,8 @@ con.innerHTML=put
 co.innerHTML=pu
 }
 
-if(puty == "2" || pu == "是"){
- guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+if(puty == "2" && pu == "是"){
+ guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='conl'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybss'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='com'></p><hr/><br>"
  
  var bit = [
  "http://test.cashbook.work/7332f14d6886436e85f094075dfd2669",
@@ -132,12 +132,12 @@ if(puty == "2" || pu == "是"){
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;
-con.innerHTML=put
-co.innerHTML=pu
+			document.getElementById("sybss").value = randomElement;
+conl.innerHTML=put
+com.innerHTML=pu
 }
-if(puty == "3" || pu == "是"){
-  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+if(puty == "3" && pu == "是"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='conk'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybsss'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='coo'></p><hr/><br>"
 
 var bit = [
  "http://test.cashbook.work/699b9fbc37b04c38b5ec2a4509100626",
@@ -151,12 +151,12 @@ var bit = [
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;
-con.innerHTML=put
-co.innerHTML=pu
+			document.getElementById("sybsss").value = randomElement;
+conk.innerHTML=put
+coo.innerHTML=pu
 }
-if(puty == "4" || pu == "是"){
-  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+if(puty == "4" && pu == "是"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='congg'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybks'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='cos'></p><hr/><br>"
 
 var bit = [
 "http://test.cashbook.work/70de8b87e480427989b0efa27301ef06",
@@ -167,12 +167,12 @@ var bit = [
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;  
-con.innerHTML=put
-co.innerHTML=pu
+			document.getElementById("sybks").value = randomElement;  
+congg.innerHTML=put
+cos.innerHTML=pu
 }
-if(puty == "1" || pu == "否"){
-  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+if(puty == "1" && pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='conb'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='ybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='coj'></p><hr/><br>"
 
  var bit = [
   "http://test.cashbook.work/e1627544637f44d89ae352e992d51078",
@@ -186,12 +186,12 @@ if(puty == "1" || pu == "否"){
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;
- con.innerHTML=put  
-  co.innerHTML=pu
+			document.getElementById("ybs").value = randomElement;
+ conb.innerHTML=put  
+  coj.innerHTML=pu
 }
-if(puty == "2" || pu == "否"){
-  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+if(puty == "2" && pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='coy'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sbs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='cov'></p><hr/><br>"
 
 var bit = [
  "http://test.cashbook.work/7332f14d6886436e85f094075dfd2669",
@@ -204,12 +204,12 @@ var bit = [
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;
-   con.innerHTML=put
-   co.innerHTML=pu
+			document.getElementById("sbs").value = randomElement;
+   coy.innerHTML=put
+   cov.innerHTML=pu
 }
-if(puty == "3" || pu == "否"){
-  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+if(puty == "3" && pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='coh'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='bs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='coa'></p><hr/><br>"
 
 var bit = [
  "http://test.cashbook.work/699b9fbc37b04c38b5ec2a4509100626",
@@ -223,12 +223,12 @@ var bit = [
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;
-   con.innerHTML=put
-   co.innerHTML=pu
+			document.getElementById("bs").value = randomElement;
+   coh.innerHTML=put
+   coa.innerHTML=pu
 }
 if(puty == "4" && pu == "否"){
-  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='cojn'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='ss'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='klo'></p><hr/><br>"
 
 var bit = [
 "http://test.cashbook.work/70de8b87e480427989b0efa27301ef06",
@@ -239,13 +239,14 @@ var bit = [
 			
 		var randomIndex = Math.floor(Math.random() * bit.length);
 			var randomElement = bit[randomIndex];
-			document.getElementById("sybs").value = randomElement;
- con.innerHTML=put
- co.innerHTML=pu
+			document.getElementById("ss").value = randomElement;
+ cojn.innerHTML=put
+ klo.innerHTML=pu
 }
 
- }
-function a(){
+}
+  	 
+ function a(){
 var str = document.getElementById("str");
 str.style.display = "none";
 var guan = document.getElementById("guan");
