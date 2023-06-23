@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>星宁cash链接后台</title>
+ <link rel="stylesheet" type="text/css" href="hello.css">
+  </head>
+  <style>
+nav {
+           background-color: #f2f2f2;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            color: #333;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        #put{
+          width:200px;
+          height:25px;
+          border:1px solid black;
+          border-radius:1vw;
+          margin-left:35%;
+          margin-top:10px;
+          }
+        #pop,#popp{
+          margin-left:30px;
+          }
+        #puty,#pu{
+          width:200px;
+          height:25px;
+          border:1px solid black;
+          border-radius:1vw;
+          margin-left:30px;
+          }
+        #sheng{
+          width:200px;
+          height:30px;
+          border:none;
+          border-radius:1vw;
+          background-color:#0086ff;
+          }
+        #guan{
+          display:none;
+          }
+        #stu{
+          width:100%;
+          height:250px;
+          background-color:yellow;
+          border-radius:2vw;
+          }
+  </style>
+  
+  <body>
+   <nav>
+  <a href="#">任务管理导航栏</a>
+  <a onclick="b();">主页</a>
+  <a onclick="a();">管理</a>
+ </nav>
+  <div id="str">	
+  <center>
+  <h1>星宁cash链接后台欢迎您</h1>
+  </center>
+ <input id="put"placeholder="请输入此次生成链接编号"type="text"/>
+ <p id="pop">套餐</p>
+ <input placeholder="输入序号来编写套餐"id="puty"type="text"/>
+ <hr/>
+ <p>1.角色5 滑板4</p>
+ <p>2.宝物34</p>
+ <p>3.特权3</p>
+ <p>4.角色等级:1314</p>
+ <hr/>
+ <p id="popp">防封</p>
+ <input placeholder="是否防封"id="pu"type="text"/>
+ <hr/>
+ <p>1.是:防封</p>
+ <p>2.否:不防封</p>
+ <hr/>
+ <center>
+ <p>填好去管理处查看链接 请不要填错</p>
+ <button onclick="sheng()"id="sheng">生成链接</button>
+ </center>
+ </div> 
+ <div id="guan">
+ <div class="stu">
+
+ </div>
+ </div>
+ <script>
+ function sheng(){
+ let put = document.getElementById("put").value;
+ let puty = document.getElementById("puty").value;
+ let pu = document.getElementById("pu").value;
+ 
+if(puty == "1" || pu == "是"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+    var bit = [
+  "http://test.cashbook.work/e1627544637f44d89ae352e992d51078",
+  "http://test.cashbook.work/08f6eb28b67d46869c6477a6a624490a",
+  "http://test.cashbook.work/6aa1e38a777f442ba56c4dddc09b661c",
+  "http://test.cashbook.work/cf14a9a5d62144ee950f389621b0f8b8",
+  "http://test.cashbook.work/22091f389be94b9492af1e39c816e4ca"
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+con.innerHTML=put
+co.innerHTML=pu
+}
+
+if(puty == "2" || pu == "是"){
+ guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+ 
+ var bit = [
+ "http://test.cashbook.work/7332f14d6886436e85f094075dfd2669",
+ "http://test.cashbook.work/918ed0abde354708b7a86291d94ba9cf",
+ "http://test.cashbook.work/8cb34caad6c749909967d2659717e0ca"
+ 
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+con.innerHTML=put
+co.innerHTML=pu
+}
+if(puty == "3" || pu == "是"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+
+var bit = [
+ "http://test.cashbook.work/699b9fbc37b04c38b5ec2a4509100626",
+ "http://test.cashbook.work/06094a97dd8b4cc0b259e39059be651e",
+ "http://test.cashbook.work/d306199a87f346fba0ca55223de60819",
+ "http://test.cashbook.work/51a81970385041db97e4140b7833144b",
+ "http://test.cashbook.work/9fe46e54459041f3b47194873c7dc94e"
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+con.innerHTML=put
+co.innerHTML=pu
+}
+if(puty == "4" || pu == "是"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+
+var bit = [
+"http://test.cashbook.work/70de8b87e480427989b0efa27301ef06",
+"http://test.cashbook.work/cfe39a8b2d164bf28380aa4e96162cf7"
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;  
+con.innerHTML=put
+co.innerHTML=pu
+}
+if(puty == "1" || pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+
+ var bit = [
+  "http://test.cashbook.work/e1627544637f44d89ae352e992d51078",
+  "http://test.cashbook.work/08f6eb28b67d46869c6477a6a624490a",
+  "http://test.cashbook.work/6aa1e38a777f442ba56c4dddc09b661c",
+  "http://test.cashbook.work/cf14a9a5d62144ee950f389621b0f8b8",
+  "http://test.cashbook.work/22091f389be94b9492af1e39c816e4ca"
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+ con.innerHTML=put  
+  co.innerHTML=pu
+}
+if(puty == "2" || pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+
+var bit = [
+ "http://test.cashbook.work/7332f14d6886436e85f094075dfd2669",
+ "http://test.cashbook.work/918ed0abde354708b7a86291d94ba9cf",
+ "http://test.cashbook.work/8cb34caad6c749909967d2659717e0ca"
+ 
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+   con.innerHTML=put
+   co.innerHTML=pu
+}
+if(puty == "3" || pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+
+var bit = [
+ "http://test.cashbook.work/699b9fbc37b04c38b5ec2a4509100626",
+ "http://test.cashbook.work/06094a97dd8b4cc0b259e39059be651e",
+ "http://test.cashbook.work/d306199a87f346fba0ca55223de60819",
+ "http://test.cashbook.work/51a81970385041db97e4140b7833144b",
+ "http://test.cashbook.work/9fe46e54459041f3b47194873c7dc94e"
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+   con.innerHTML=put
+   co.innerHTML=pu
+}
+if(puty == "4" && pu == "否"){
+  guan.innerHTML+="&nbsp;&nbsp;&nbsp;编号:<p id='con'>0</p> <hr/> <p>生成的链接:</p>  &nbsp;&nbsp;&nbsp;<textarea id='sybs'name='message' cols='50'rows='5'></textarea>     <hr/>  <p>是否防封:</p><p id='co'></p><hr/><br>"
+
+var bit = [
+"http://test.cashbook.work/70de8b87e480427989b0efa27301ef06",
+"http://test.cashbook.work/cfe39a8b2d164bf28380aa4e96162cf7"
+  ]
+  
+
+			
+		var randomIndex = Math.floor(Math.random() * bit.length);
+			var randomElement = bit[randomIndex];
+			document.getElementById("sybs").value = randomElement;
+ con.innerHTML=put
+ co.innerHTML=pu
+}
+
+ }
+function a(){
+var str = document.getElementById("str");
+str.style.display = "none";
+var guan = document.getElementById("guan");
+guan.style.display = "block";
+}
+function b(){
+var str = document.getElementById("str");
+str.style.display = "block";
+var guan = document.getElementById("guan");
+guan.style.display = "none";
+}
+ </script>
+</body>
+</html>
