@@ -5,23 +5,23 @@ if(user=="377185524" && pass=="00zhang123"){
 alert("您已登录管理员账号");
 window.open("hello.html")
 }
-if(user=="366145524" && pass=="00123456"){
+if(user=="3654645524" && pass=="00123356"){
 alert("登录成功");
 window.open("hello.html")
 }
-if(user=="388543524" && pass=="00885288"){
+if(user=="389435524" && pass=="00834588"){
 alert("登录成功");
 window.open("hello.html")
 }
-if(user=="399463758" && pass=="00951680"){
+if(user=="394673758" && pass=="00946380"){
 alert("登录成功");
 window.open("hello.html")
 }
-if(user=="378854325" && pass=="008854369"){
+if(user=="376432325" && pass=="006458369"){
 alert("登录成功");
 window.open("hello.html")
 }
-if(user=="378846342" && pass=="0084067275"){
+if(user=="376489742" && pass=="0084643275"){
 alert("登录成功");
 window.open("hello.html")
 }
