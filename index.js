@@ -21,4 +21,24 @@ if(user=="378854325" && pass=="008854369"){
 alert("登录成功");
 window.open("hello.html")
 }
+if(user=="378846342" && pass=="0084067275"){
+alert("登录成功");
+window.open("hello.html")
+}
+if(user=="378025815" && pass=="0980054556"){
+alert("登录成功");
+window.open("hello.html")
+}
+if(user=="370555025" && pass=="0085658766"){
+alert("登录成功");
+window.open("hello.html")
+}
+if(user=="3700786325" && pass=="009453769"){
+alert("登录成功");
+window.open("hello.html")
+}
+if(user=="3704873575" && pass=="004375459"){
+alert("登录成功");
+window.open("hello.html")
+}
 }
