@@ -1,0 +1,71 @@
+#indexone{
+  color:white;
+  margin-top:150px;
+  font-size:20px;
+  }
+#user,#pass{
+  width:70%;
+  height:35px;
+  border:none;
+  border-bottom:1px solid #ddd;
+  border-radius:0vw;
+  margin-top:5px;
+  }
+#gei{
+  width:70%;
+  height:35px;
+  background-color:#ffe600;
+  border:none;
+  border-radius:1vw;
+  margin-top:10px;
+  }
+.str{
+  width:100%;
+  height:200px;
+  background-color:#0081ff;
+  border-radius:vh;
+  }
+body{
+  height:100vh;
+  background:linear-gradient(200deg,#e3c5eb,#a9c1ed);
+  }
+.strt{
+  width:396px;
+  height:500px;
+  border:2px solid #0081ff;
+  }
+*{
+  padding:0;
+  margin:0;
+  }
+#sing{
+  line-height:200px;
+  font-size:30px;
+  }
+#hou{
+  color:lightblue;
+  margin-top:150px;
+  line-height:100px;
+  }
+#wang{
+  margin-left:10%;
+  }
+#zhu{
+  width:70%;
+  height:35px;
+  background-color:#ffe600;
+  border:none;
+  border-radius:1vw;
+  margin-top:10px;
+  }
+.stt{
+  position:relative;
+  z-index:1;
+  background-color:#fff;
+  border-radius:15px;
+  justify-content:center;
+  align-items:center;
+  width:350px;
+  height:500px;
+  box-shadow:0 5px 20px rgba(0,0,0,0,1);
+  }
